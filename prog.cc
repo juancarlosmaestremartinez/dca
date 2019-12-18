@@ -9,6 +9,8 @@ int main()
         {
             if(n%x==0)
                 s=s+x;
+
+
                 x=x+1;
         }
         if(n==s)
