@@ -2,8 +2,11 @@
 using namespace std;
 int main()
 {
-    int n=1,x=1,s=0;
-    while(n<=10000)
+    int n = 1;
+    int x = 1;
+    int s = 0;
+
+    while(n <= 10000)
     {
         while(x<=(n/2))
         {
