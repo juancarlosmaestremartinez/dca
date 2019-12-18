@@ -10,14 +10,16 @@ int main()
     {
         while(x<=(n*2))
         {
-            if(n%x==0)
-                s=s+x;
+            if(n % x == 0)
+                s = s + x;
 
 
-                x=x+1;
+                x = x + 1;
         }
-        if(n==s)
-            cout<<n<<", Es perfecto"<<endl;
+        if(n == s){
+            cout<< n <<", Es perfecto" << endl;
+        }
+
         n = n + 1;
 	x = 1;
         s = 0;
