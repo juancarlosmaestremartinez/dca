@@ -18,7 +18,6 @@ int main()
         if(n == s){
             cout<< n <<", Es perfecto" << endl;
         }
-
         n = n + 1;
 	x = 1;
         s = 0;
