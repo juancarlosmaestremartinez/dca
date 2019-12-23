@@ -8,10 +8,12 @@ int main()
 
     while(n <= 10000)
     {
-        while(x<=(n*2))
+        while(x<=(n/2))
         {
             if(n % x == 0)
                 s = s + x;
+
+
 
 
                 x = x + 1;
